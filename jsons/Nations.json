@@ -1,0 +1,538 @@
+[
+	//Allies
+	{
+		"name": "United States of America",
+		"leaderName": "Franklin D. Roosevelt",
+		"adjective": ["American"],
+		"preferredVictoryType": "Scientific",
+		"favoredReligion": "Christianity", //Protestantism
+		"personality": "Franklin D. Roosevelt",
+
+		"startIntroPart1": "Greetings, President Roosevelt. As we all know, you are the 32nd President of the United States, first elected in March 3, 1933. By the 1920s, America have just recently exited the Great War and onwards towards the Great Depression and the Prohibition Period. America was economically bankrupt multiple occasions and the economy managed to return to normal only by 1939, lasting for 10 years. However, due to your 'New Deal' program, the United States have managed to recover economically and get out even stronger than before! However, even after managing to deal with the economical downturn, dark clouds have began to be seen over both Europe and Asia. Another era of conflict is about to begin, and America will once again be the center of it.",
+		"startIntroPart2": "Mr. President, America would require to guide it once more. You have led us out of the Great Depression, and many believed you will lead us into another American Golden Age. Can you build a civilization that can withstand the test of time?",
+		
+		"declaringWar": "Your reign of tyranny requires to be ended in order to restore peace. Therefore, prepare for war!",
+		"attacked": "Your treachery to peace shall not easily be forgotten and I will make it certain you receive justice.",
+		"defeated": "Today, we truly live in a year of infamy. But even if we're vanquished, you cannot fully conquer our hearts and minds!",
+		"introduction": "I am Franklin D. Roosevelt, 32nd President of the U.S., I welcome you both as a friend and a prosepective ally.",
+		
+		"neutralHello": "Can I help you?",
+		"neutralLetsHearIt": ["Do you come to negotiate?", "Interesting.", "Tell me then."],
+		"neutralNo": ["I cannot agree.", "It's a no.", "No."],
+		"neutralYes": ["It's a deal.", "Good.", "Very well."],
+		
+		"hateHello": "What do you want?",
+		"hateLetsHearIt": ["What?", "Be quick about it.", "What is it?"],
+		"hateNo": ["No!", "Unacceptable.", "Never!"],
+		"hateYes": ["Acceptable.", "Good.", "Agreeable"],
+		
+		"tradeRequest": "This deal can surely benefit both of our nations.",
+		"outerColor": [47,87,153],
+		"innerColor": [255,255,255],
+		
+		"uniqueName": "New Deal",
+		"uniques": ["[+2 Production] per [5] population [in all cities]",
+		"[+1 Production] from every specialist [in all cities] <after discovering [Economics]>"],
+		"cities": ["Washington D.C.","New York","Boston","Philadelphia","Atlanta","Chicago","Seattle","San Francisco","Los Angeles","Houston",
+			"Portland","St. Louis","Miami","Buffalo","Detroit","New Orleans","Baltimore","Denver","Cincinnati","Dallas","Memphis",
+			"Cleveland","Kansas City","San Diego","Richmond","Las Vegas","Phoenix","Albuquerque","Minneapolis","Pittsburgh",
+			"Oakland", "Honlulu","Tampa Bay","Orlando","Tacoma","Santa Fe","Olympia","Hunt Valley","Springfield","Palo Alto","Centralia",
+			"Spokane","Jacksonville","Savannah","Charleston","San Antonio","Birmingham","Anchorage","Sacramento","Reno",
+			"Salt Lake City","Boise","Milwaukee","Santa Cruz","Little Rock","Hilo","Kailua","Lahaina"],
+		"spyNames": ["William J. Donovan", "Virginia Hall", "Allen Dulles", "Moe Berg", "Elizabeth P. McIntosh", "Arthur J. Goldberg", "Carl Eifler", "Julia Child", "Ralph Bunche", "Josephine Baker"]
+	},	
+	
+	{
+		"name": "United Kingdom",
+		"leaderName": "Winston Churchill",
+		"adjective": ["British"],
+		"startBias": ["Coast"],
+		"preferredVictoryType": "Diplomatic",
+		"favoredReligion": "Christianity", //Protestantism
+		"personality": "Winston Churchill",
+
+		"startIntroPart1": "Well met, Sir Winston Churchill. Prime Minister of His Majesty's Government and the United Kingdom. Before you were elected as Prime Minister of the UK, you first had a remarkable career in the military. From India to South Africa, you had served in His Majesty's behalf and even made a name for yourself during the Second Boer War. However, the most remarkable work you ever did is your service during the 2nd World War, where alone, you led the people to stand bravely before the seemingly unstoppable might of the Nazis under Adolf Hitler, and managed to prevail in the end.",
+		"startIntroPart2": "Prime Minister, the people once more need a strong and charismatic leader that can lead Britain to greatness. Can you build a civilization that can withstand the test of time?",
+		
+		"declaringWar": "You have been obstructing His Majesty and his people for so long. Ready yourself for war!",
+		"attacked": "We shall fight you in the beaches, we shall fight you on the landing grounds, we shall fight you in the hills, and WE will never surrender!",
+		"defeated": "The last of His Majesty's Army has fallen in your hands. I applaud you as much as I loathe you. May God Save the King.",
+		"introduction": "Good day to you. I am Winston Churchill, but that's 'Sir' Winston Churchill for you. It is a pleasure to make your acquiantance.",
+		
+		"neutralHello": "Can I help you?",
+		"neutralLetsHearIt": ["Let's hear it.", "I'm listening.", "Go on."],
+		"neutralNo": ["Not now!", "Of course not.", "No."],
+		"neutralYes": ["Fine.", "Alright then.", "Good."],
+		
+		"hateHello": "What do you want?",
+		"hateLetsHearIt": ["What?", "Spit it out!", "Speak!"],
+		"hateNo": ["What?","I didn't heard that well.","Absolutely not!"],
+		"hateYes": ["Very well.", "Fine then.", "Hmph! Fine."],
+		
+		"tradeRequest": "I'm sure this is better off for both you and me.",
+		"outerColor": [0,32,91],
+		"innerColor": [255,51,51],
+		
+		"uniqueName": "The British Commonwealth",
+		"uniques": ["[+50]% resources gifted by City-States",
+		"Military Units gifted from City-States start with [15] XP",
+		"Militaristic City-States grant units [2] times as fast when you are at war with a common nation"],
+		"cities": ["London", "Birmingham", "Liverpool", "Manchester", "Glasgow", "Edinburgh", "Belfast", "Sheffield", "Bristol", "Leeds", "Newcastle upon Tyne", "Coventry", "Portsmouth", "Southampton", "Hull", "Nottingham", "Cardiff", "Dundee", "Swansea", "Derby", "Reading", "Milton Keynes", "Oxford", "Cambridge", "Leicester", "Aberdeen", "Dundee", "St. Albans", "Plymouth", "Luton", "Wigan", "Peterborough", "Southend-on-Sea", "Ipswich", "Bournemouth"],
+		"spyNames": ["Juan Pujol García", "Kim Philby", "Sir Hugh Trevor-Roper", "Eddie Chapman", "John Cairncross", "Gordon Waller", "Fritz Kolbe", "Alan Turing", "William Fairbairn", "Maurice Buckmaster"]
+	},
+	
+	{
+		"name": "French Republic",
+		"leaderName": "Charles de Gaulle",
+		"adjective": ["French"],
+		"preferredVictoryType": "Cultural",
+		"favoredReligion": "Christianity", //Catholicism
+		"personality": "Charles de Gaulle",
+
+		"startIntroPart1": "Greetings to you President Charles de Gaulle, 18th President of France and founder of the 5th French Republic. Years, prior your presidency, France was subject to many types of trials, one of which was the brutal occupation it has to endure under the Nazis led by Adolf Hitler. Conquering France in just a month of resistance. This was a humiliating defeat for our nation, however, under your guidance, you were able to setup a strong government-in-exile, able to rally many patriotic French to eventually fight back the Nazis and liberate our homeland.",
+		"startIntroPart2": "However, this has left many deep scars for France and her people, and the people once more needed a strong rallying figure such as yourself to lead France through this tough trials. Mr. President, are you ready to answer the cries of our people? Can you restore France to her former glory? Can you build a civilization that can withstand the test of time?",
+		
+		"declaringWar": "Your existence is an insult to all civilized people and nations. You must be destroyed!",
+		"attacked": "You do not scare us with cheap threats! Come and face the resolve of the French people, coward!",
+		"defeated": "How tragic, for a nation which glorifies itself with the values of liberty and freedom only to befell to the likes of you. Truly, a tragedy!",
+		"introduction": "Bonjour, I am Charles de Gaulle, 18th President of France and founder of her Fifth Republic. If you value liberty and equality, then I welcome such like-minded individual!",
+		
+		"neutralHello": "Saluations.",
+		"neutralLetsHearIt": ["What is it?", "What do you want?", "Tell me."],
+		"neutralNo": ["Non.", "No.", "I cannot agree."],
+		"neutralYes": ["I can agree.", "This is good.", "Very well."],
+		
+		"hateHello": "Why are you hear!?",
+		"hateLetsHearIt": ["Spit it out!", "Say it!", "What?"],
+		"hateNo": ["Non!", "Never!", "I will never agree to this."],
+		"hateYes": ["Alright.", "Fine!"],
+		
+		"tradeRequest": "I believe this will benefit both your nation and France.",
+		"outerColor": [100,168,237],
+		"innerColor": [165,15,45],	
+		
+		"uniqueName": "La Résistance",
+		"uniques": ["New spies start with [2] level(s) <upon entering the [Modern era]>",
+		"[+15]% Strength <for [Land] units> <when fighting in [Friendly] tiles>"
+		"[+15]% Strength decreasing with distance from the capital <for [Land] units>",],
+		"cities": ["Paris", "Marseille", "Lyon", "Toulouse", "Nice", "Bordeaux", "Lille", "Nantes", "Strasbourg", "Rennes", "Le Havre", "Grenoble", "Dijon", "Aix-en-Provence", "Clermont-Ferrand", "Angers", "La Rochelle", "Tours", "Le Mans", "Perpignan", "Metz", "Amiens", "Lorient", "Rouen", "Nîmes", "Troyes", "Pau", "Valenciennes", "Chalon-sur-Saône", "Besançon", "Béziers", "Sète", "Vichy", "Moulins", "Aurillac", "La Roche-sur-Yon", "Saint-Étienne", "Châteauroux", "Mende", "Arras"],
+		"spyNames": ["Colonel Passy", "Jean Moulin", "Lucie Aubrac", "Henri Frenay", "Berthe Saffroy", "Marie-Madeleine Fourcade", "Pierre Brossolette", "André Girard", "Claude Bourdet", "Yvonne Oddon"]
+	},
+	
+	{
+		"name": "Republic of Poland",
+		"leaderName": "Władysław Sikorski",
+		"adjective": ["Polish"],
+		"preferredVictoryType": "Diplomatic",
+		"favoredReligion": "Christianity", //Catholicism
+		"personality": "Władysław Sikorski",
+
+		"startIntroPart1": "May God bless you, honorable leader, Władysław Sikorski, Prime Minister and General of the noble Polish people! Poland is a young nation, trifled with troubles from both within and outside of its borders. It is a nation, not born through peace and understanding, but baptized by a trial of fire, resiting the enroaching Bolsheviks in the East and securing its freedom from the miraculous victory at Vistula. However, despite its victory, Poland can never be truly be safe, it's land, victims of hundreds of years of oppression from its neighbors, they are envious of its success and despises its exisistence, seeking to subdue its people once more.",
+		"startIntroPart2": "Great Leader, your wisdom shall be needed once more. The dark clouds of war lurks within its borders and only you can save it from disaster. Can you resist those who seek to enslave Poland? Can you protect the Fatherland from our imperialistic neighbors? Can you build a civilization that can stand the test of time?",
+		
+		"declaringWar": "Your existence threatens the very safety of Poland and her people. For that, prepare to be destroyed!",
+		"attacked": "You coward! Your betrayal of the Polish people shall never be forgotten!",
+		"defeated": "No amount of invasion, no amount of conquest shall fully subjugate the spirit of freedom of Poland! Polska jeszcze nie zaginęła!",
+		"introduction": "Greetings, I am Władysław Sikorski. Prime Minsiter of Poland and its leader. What brought you to this place stranger?",
+		
+		"neutralHello": "What brings you here?",	
+		"hateHello": "I was hoping I'd never see you again...",
+
+		
+		"tradeRequest": "This treaty shall benefit both of our interests.",
+		"outerColor": [220,20,60],
+		"innerColor": [255,255,255],	
+		
+		"uniqueName": "Dąbrowski's Mazurka!",
+		"uniques": ["[+10]% [Culture] [in all cities] <when at war>",
+		"[+10]% Strength <when fighting units from a Civilization with more Cities than you> <in [your] tiles>"
+		"All healing effects doubled <in [your] tiles> <when at war>"],
+		"cities": ["Warsaw", "Kraków", "Lwów", "Poznań", "Wilno", "Łódź", "Gdańsk", "Katowice", "Częstochowa", "Toruń", "Bydgoszcz", "Radom", "Sosnowiec", "Białystok", "Kielce", "Lublin", "Gdynia", "Cieszyn", "Zamość", "Tarnów", "Rzeszów", "Przemyśl", "Piotrków Trybunalski", "Włocławek", "Grudziądz", "Elbląg", "Chełm", "Płock", "Olsztyn", "Słupsk", "Koszalin", "Świętochłowice", "Chorzów", "Opole", "Legnica", "Wałbrzych", "Kalisz", "Leszno", "Nowy Sącz", "Łomża", "Ostrołęka", "Siedlce", "Tarnobrzeg", "Żyrardów", "Skierniewice", "Starogard Gdański", "Mielec", "Inowrocław", "Gniezno", "Racibórz"]
+		"spyNames": ["Jan Karski", "Krystyna Skarbek", "Stefan Rowecki", "Witold Pilecki", "Zofia Kossak-Szczucka", "Eugeniusz Świderski", "Emil August Fieldorf", "Antoni Chruściel", "Michał Karaszewicz-Tokarzewski", "Tadeusz Pełczyński"]
+	},
+	
+	
+	//Communist Bloc
+	
+	{
+		"name": "Soviet Union",
+		"leaderName": "Joseph Stalin",
+		"adjective": ["Soviet"],
+		"startBias": ["Tundra"],
+		"preferredVictoryType": "Diplomatic",
+		"favoredReligion": "Christianity", //Orthodox in BNW
+		"personality": "Joseph Stalin",
+
+		"startIntroPart1": "Salutations Comrade Stalin, Vozhd of the Soviet Union and the great successor of Lenin, the father of our country! It is no secret that the country was made by blood and sacrifice, such act will forever be remembered within our great revolution of the 1917, and to this day, you are still remembered to fight alongside Lenin as one of his generals and liberated our motherland from the imperialist Tsarist Russia. Although our early years as a nation was difficult, we have managed to persevere and by 1945, 23 years after our nation was founded, we were then considered as a global superpower, thanks to our collective efforts as a nation.",
+		"startIntroPart2": "Comrade! The time has come, the world must be liberated from such imperialistic ideals, the workers call your name. Can you build a utopia free from imperialism? Can you build a civilization that can withstand the test of time?",
+		
+		"declaringWar": "The laborers has called, we must liberate the people from the capitalist pigs such as you!",
+		"attacked": "We do not like taking any foreign territory, but we shall never give up even a single grain of our lands!",
+		"defeated": "Imperilaist dog! You may have crushed the Soviet Union now, but you will never destroy the spirit of the revolution!",
+		"introduction": "I do not have time to talk with capitalist monsters, but if you are a friend of the workers, then you can be my friend as well.",
+		
+		"neutralHello": "Hello.",
+		"neutralLetsHearIt": ["Do not make me wait then.","I am listening.","Go ahead."],
+		"neutralNo": ["No.","Certainly not.","That is unacceptable."],
+		"neutralYes": ["Good.","Very well.","This will do."],
+		
+		"hateHello": "What do you want!?",
+		"hateLetsHearIt": ["Spit it out!","What?","Out with it!"],
+		"hateNo": ["Never!","Excuse me?","You are joking right?"],
+		"hateYes": ["I cannot refuse.","Good enough.","Very well then."],
+		
+		"tradeRequest": "I suggest you accept this offer for I do not trade with outsiders that often.",
+		"outerColor": [179, 0, 0],
+		"innerColor": [255,255,0],
+		
+		"uniqueName": "War of The People",
+		"uniques": ["[-75]% maintenance costs <for [All] units> <when at war>", "[+15]% Production when constructing [Land] units [in all cities] <when at war>","[+15]% [Science]  [in all cities] <when at war>","Nullifies [Culture] [in all cities] <when at war>","Nullifies Growth [in all cities] <when at war>"],
+		"cities": ["Moscow","Stalingrad","Leningrad","Kiev","Minsk","Baku","Kharkiv","Riga","Odessa","Grodno","Gomel","Rostov-on-Don","Kursk","Yekaterinburg","Vilnius","Vladivostok","Smolensk","Talinn","Tashkent","Khabarovsk","Chisnau","Sverdlovsk","Tbilisi","Murmansk","Arkhangelsk","Tula","Tashkent","Arkhangelsk","Ashgabat","Astana","Bishkek","Omsk","Yerevan","Saratov","Tula","Irkutsk","Perm","Pskov","Saratov","Irkutsk","Novokuznetsk","Orenburg"],
+		"spyNames": ["Pavel Sudoplatov", "Leopold Trepper", "Nikolai Kuznetsov", "Vasily Zarubin", "Elizaveta Zarubina", "Anatoli Gurevich", "Alexander Radó", "Sándor Radó", "Vladimir Dekanozov", "Stanisław Flato"]
+	},
+
+	//Axis Powers
+
+	{
+		"name": "German Reich",
+		"leaderName": "Adolf Hitler",
+		"adjective": ["German"],
+		"preferredVictoryType": "Domination",
+		"favoredReligion": "Positive Christianity",
+		"personality": "Adolf Hitler",
+
+		"startIntroPart1": "Heil mein Führer, most brilliant leader of the Reich and the German people. You are the successor to the Third Reich; the empire of the illustrious German race. Germany was once a great nation, but after the humiliating defeat of the First World War, Germany has turned into nothing but a pushover to the Entente within the west, and the Communists from the East, inflation is the highest in history, and unrest and riots are everywhere. But through you, the Fatherland have risen from the ashes of our past, and made Germany a great power again in a span of a decade. Political unrest has died down, economy has boomed to competence, the people is satisfied within your rule.",
+		"startIntroPart2": "O' Great leader of the Reich, the time has come, our neighbors are envious and the road to the 'Endsieg' awaits, history is now to be decided. Can you bring the greatness that the people waited for so long? can you build an everlasting and powerful Reich? Can you build a civilization that can withstand the test of time?",
+		
+		"declaringWar": "You are nothing but a nuisance to this world! You must be destroyed!",
+		"attacked": "Foolishness! My Wehrmacht is invincible! Do you really think your 'army' can overtake the Reich?",
+		"defeated": "The last bastion of the Reich has fallen to your hands, well done. But if you think I will surrender to you, I would prefer to blow my brains out.",
+		"introduction": "Welcome, I am Adolf Hitler, Führer of the German People. Now, let us discuss regarding the lands that you have mistook to be yours.",
+		
+		"neutralHello": "Heil.",
+		"neutralLetsHearIt": ["Let us hear it then.","Pry tell then.","Go ahead."],
+		"neutralNo": ["No.","Certainly not.","Of course not!"],
+		"neutralYes": ["That is an excellent proposition.","Very well.","That may sound reasonable."],
+		
+		"hateHello": "Speak!",
+		"hateLetsHearIt": ["What now!?","Hurry up then!","Quickly!"],
+		"hateNo": ["No!","That is outrageous!","Never!"],
+		"hateYes": ["Fine!","Very well then.","This may work."],
+		
+		"tradeRequest": "You better accept this deal before I change my mind.",
+		"outerColor": [255,25,25],
+		"innerColor": [54,54,54],	
+		
+		"uniqueName": "Blitzkrieg",
+		"uniques": ["[+10]% Strength <for [Armored] units>","[+1] Movement <for [Armored] units> <when at war>","[+15]% Strength <for [Land] units> <during a Golden Age>","[+1] Movement <for [Land] units> <during a Golden Age>"],
+		"cities": ["Berlin", "Hamburg", "Munich", "Cologne", "Frankfurt", "Stuttgart", "Dresden", "Leipzig", "Nuremberg", "Essen", "Bremen", "Dortmund", "Düsseldorf", "Hannover", "Kiel", "Magdeburg", "Freiburg", "Mannheim", "Karlsruhe", "Aachen", "Chemnitz", "Königsberg", "Mainz", "Rostock", "Würzburg", "Schwerin", "Lübeck", "Kassel", "Saarbrücken", "Heidelberg", "Bonn", "Halle", "Göttingen", "Regensburg", "Potsdam", "Osnabrück", "Erfurt", "Weimar", "Flensburg", "Cottbus", "Braunschweig", "Friedrichshafen", "Oldenburg", "Görlitz", "Jena", "Greifswald", "Passau", "Trier", "Coburg", "Ulm"],
+		"spyNames": ["Richard Sorge", "Elyesa Bazna", "Otto Skorzeny", "Fritz Joubert Duquesne", "Erich Vermehren", "Lothar Witzke", "Arthur Owens", "Duško Popov", "Hans Oster", "Wilhelm Canaris"]
+	},
+	
+	{
+		"name": "Reichskommissariate des Ostens",
+		"leaderName": "Heinrich Himmler",
+		"adjective": ["German"],
+		"preferredVictoryType": "Domination",
+		"favoredReligion": "Positive Christianity",
+		"personality": "Heinrich Himmker",
+
+		"startIntroPart1": "As Hitler's iron fist punch through the East in dreams of establishing his dreams of Lebensraum, here, the Reichskommissariats of Ostland, Ukraine, Kaukasien, Polen and Moskowien was born. Rule on the Slavic East is harsh, as these lands are filled with people Hitler and his party considered as \"Untermensch\" or \"Subhumans\" whom he believed as unworthy to rule for themselves or even of their own lives. Representing one of the most deadly occupations on recent memory, are the Reichskommissariate des Ostens, although not historically accurate, these represents all of those under who fell under the boots of the relentless German armies, most notably the lands within Eastern Europe who were the most devastated by the relentless war machine of the Third Reich.",
+		"startIntroPart2": "Lead your forces into dominating the entire world in this high-risk, high-reward campaign that focuses on aggressive expansion with Heinrich Himmler's SS and exploit the lands of your foes by establishing Reichskommissariats in their territories that they are too weak to take back. Can you crush all of your enemies? Can you create a strong empire under the dust of your fallen rivals? Can you build a civilization that can stand the test of time?",
+		
+		"declaringWar": "The Fatherland demands the extermination of you and your people. It is best if you do not perform any worthless attempts to resist.",
+		"attacked": "A foolish choice! What good is there to fight against the inevitability of your demise!?",
+		"defeated": "May the gods forgive my failure. For I have failed the Fatherland, and the dreams of creating a glorious future for our people.",
+		"introduction": "I am Reichsführer-SS, Heinrich Himmler. Overseer of the operations here in the lands liberated by the Fatherland. You don't happen to be an... \"undersirable\" now are you, friend?",
+		
+		"neutralHello": "Heil.",
+		"hateHello": "What is it that you want?!",
+
+		"tradeRequest": "Accept this deal, for you know this shall benefit you well.",
+		"outerColor": [20, 20, 20],
+		"innerColor": [248,248,255],	
+		
+		"uniqueName": "Verbrannte Erde und Lebensraum",
+		"uniques": ["Upon capturing a city, receive [5] times its [Culture] production as [Gold] immediately",
+		"Upon capturing a city, receive [5] times its [Production] production as [Science] immediately",
+		"[-2 Happiness] [in annexed cities]"
+		"Cities are razed [2] times as fast",
+		"\"Borrows\" city names from other civilizations in the game"],
+		"cities": ["Reichshauptstadt"],
+		"spyNames": ["Reinhard Heydrich", "Adolf Eichmann", "Joseph Mengele", "Karl Höss", "Jürgen Stroop", "Heinrich Müller", "Erich von dem Bach-Zelewski", "Richard Glücks", "Fritz Sauckel", "Arthur Nebe"]
+	},
+	
+	
+	{
+		"name": "Empire of Japan",
+		"leaderName": "Hideki Tojo",
+		"adjective": ["Japanese"],
+		"startBias": ["Coast"],
+		"preferredVictoryType": "Domination",
+		"favoredReligion": "State Shintoism",
+		"personality": "Hideki Tojo",
+
+		"startIntroPart1": "May heaven bestow a thousand blessings upon you, Your Excellency, Hideki Tojo. Japan is a nation of indomitable warriors and soldiers who carry out the spirit of Yamato. Over the past years, we have been continously expanding our Empire and continue to flourish. So much so, that the Koreans even joined our glorious empire as their emperor swore loyalty to none other than our great nation. However, even if we continue to prosper, many are jealous of our greatness, and it will be up to you to lead our people to glory.",
+		"startIntroPart2": "Your Excellency, Japan needs a great leader who can deliver the people through both hardships and glory. Can you build a civilization that can withstand the test of time?",
+		
+		"declaringWar": "The rebirth of our nation relies on this battle. Brace yourself for war!",
+		"attacked": "You have made a grave mistake by attacking us. We shall make you pay dearly for every inch of land you shall take then!",
+		"defeated": "May my ancestors and the Emperor forgive me, for I have been responsible for the situation in which Japan finds itself in.",
+		"introduction": "Greetings, I am Hideki Tojo. Prime Minister of the Japanese people and His Majesty, Emperor Hirohito. We welcome you to our lands.",
+		
+		"neutralHello": "Konnichiwa.",
+		"neutralLetsHearIt": ["What?", "What do you want?", "I'm listening."],
+		"neutralNo": ["Unacceptable.","Of course not.","No."],
+		"neutralYes": ["Of course.", "Yes", "Agreed"],
+		
+		"hateHello": "What is it do you want?",
+		"hateLetsHearIt": ["Say it!", "Speak!", "What is it!?"],
+		"hateNo": ["..."],
+		"hateYes": ["Fine.","Good.","This may work."],
+		
+		"tradeRequest": "I believe this deal can be proved to be beneficial for all of us.",
+		"outerColor": [255,255,255],
+		"innerColor": [220,20,60],	
+		
+		"uniqueName": "Tenko Banzai!",
+		"uniqueText": "[+10]% Strength for [Land] units when attacking. Additional +10% combat bonus when the same unit is attacking while wounded\n-10% Strength for Land units when defending\nNo damage penalty for wounded units <for [non-[Air]] units>",
+		"uniques": ["[+10]% Strength <for [Land] units> <when attacking>", 
+		"[+10]% Strength <for [Land] units> <when attacking> <when [Wounded]>", 
+		"[-10]% Strength <for [Land] units> <when defending>",
+		"No damage penalty for wounded units <for [non-[Air]] units>"],
+		"cities": ["Tokyo", "Osaka", "Yokohama", "Nagoya", "Hiroshima", "Nagasaki", "Kobe", "Sapporo", "Kyoto", "Fukuoka", "Sendai", "Kumamoto", "Gifu", "Shizuoka", "Utsunomiya", "Fukui", "Kanazawa", "Okayama", "Takamatsu", "Matsumoto", "Hamamatsu", "Ube", "Kokura", "Keijō", "Pusan", "Pjŏngyang", "Wonsan", "Daegu", "Kōjū", "Zenjū", "Incheon", "Keijū", "Antō", "Asan", "Reisu", "Tōei", "Saishu", "Ryūzan", "Daitō", "Kōryū"],
+		"spyNames": ["Takeo Yoshikawa", "Yoshikazu Kato", "Tadao Watanabe", "Hirō Onoda", "Mitsuo Fuchida", "Koichi Nishi", "Seiichi Tsukamoto", "Ryoichi Sasakawa", "Kenji Doihara", "Tadao Saito"]
+	},
+	
+	{
+		"name": "Kingdom of Italy",
+		"leaderName": "Benito Mussolini",
+		"adjective": ["Italian"],
+		"startBias": ["Avoid [Tundra]", "Avoid [Desert]"],
+		"preferredVictoryType": "Domination",
+		"favoredReligion": "Christianity", //Catholicism in BNW
+		"personality": "Benito Mussolini",
+
+		"startIntroPart1": "Salve Benito Mussolini, Il Duce and leader of the Italian people! Compared to the other European great powers of our time, Italy is a young and fledgeling nation. We have participated greatly within the Great War, were have went out and sent our men to fight against our old enemies: The Austro-Hungarian Empire. However, the bravery of our men were all for naught for we are only to be betrayed by our allies who gave false promises to help Italy became a greater power in the world stage, and only gave us a meager portion of what they had promised to us. This treachery however, is not forgiven nor forgotten! ",
+		"startIntroPart2": "Il Duce, it is time we make the treacherous Britons and French learn to bow before Italian supremacy and restore the might of our Roman ancestors and make them proud. Can you prove to the world the Italy is not just a fledgeling nation? Can you restore Romanità and revive Rome? Can you build a civilization that can withstand the test of time?",
+		
+		"declaringWar": "Let it be known that Rome shall be restored to its former glory, and your nation will be just our stepping stone!",
+		"attacked": "The glorious Italian nation shall remain steadfast against your pitiful attempts to intimidate us!",
+		"defeated": "It is better this way. Better to live as a lion for a day, than a hundred years as a sheep!",
+		"introduction": "Salve! I am Benito Mussolini, Il Duce of Italy and the future restorer of the Roman glory. What can I do for you today?",
+		
+		"neutralHello": "Salve.",
+		"neutralLetsHearIt": ["Tell me then.", "Yes?", "What is it?"],
+		"neutralNo": ["No.", "Not today.", "It's not enough."],
+		"neutralYes": ["Sì.", "Of course.", "A glorious offer."],
+		
+		"hateHello": "How nice to see you... again.",
+		"hateLetsHearIt": ["What do you want!?", "What!?", "Say it!"],
+		"hateNo": ["What?", "You're joking right?", "Absolutely not!"],
+		"hateYes": ["Fine", "Very well.", "Reasonable."],
+		
+		"tradeRequest": "Let us proseper together by accepting this deal!",
+		"outerColor": [0,128,0],
+		"innerColor": [255,248,240],	
+		
+		"uniqueName": "Romanità",
+		"uniques": ["[+1 Production] [in all cities] <in cities connected to the capital>",
+		"[+15]% Production towards any buildings that already exist in the Capital"],
+		"cities": ["Rome", "Milan", "Naples", "Turin", "Genoa", "Florence", "Bologna", "Trieste", "Palermo", "Verona", "Cagliari", "Catania", "Livorno", "Modena", "Parma", "Pisa", "Bari", "Siena", "Vicenza", "Ancona", "Arezzo", "Rimini", "La Spezia", "Reggio Emilia", "Sassari", "Bolzano", "Perugia", "Taranto", "Foggia", "Terni", "Forlí", "Brescia", "Trapani", "Catanzaro", "Aosta", "Gorizia", "L'Aquila", "Pordenone", "Sondrio", "La Maddalena", "Montecatini Terme", "Oristano", "Ragusa", "Massa", "Cosenza"],
+		"spyNames": ["Gianfranco Mingozzi", "Alfredo P. Sordini", "Luigi Ferraro", "Giuseppe Lazzaro", "Piero Orsi", "Vittorio Mussolini", "Gino Cappa", "Alberto Ronchetti", "Francesco Ferraresi", "Marcello Carli"]
+	},
+
+
+	//Non-aligned
+	{
+		"name": "Republic of China",
+		"leaderName": "Chiang Kai-shek",
+		"adjective": ["Chinese Nationalist"],
+		"preferredVictoryType": "Diplomatic",
+		"favoredReligion": "Taoism",
+		"personality": "Chiang Kai-shek",
+
+		"startIntroPart1": "From the vast plains of the Yangtze to the towering peaks of the Himalayas, your people have persevered through centuries of triumph and trial, oh wise leader, Chiang Kai-shek. As the leader of China, you are the heir to one of the world's most ancient civilizations, now reborn in a new era of struggle and ambition. Led by the indomitable spirit of unity and modernization, your nation has stood as a beacon of resistance against foreign domination and internal strife alike. From the turmoil of revolution, you have forged a republic striving for independence, reform, and sovereignty. But the shadows of war and division loom large. The thunder of cannons echoes across the land as invaders seek to claim what is rightfully yours. Your people look to you to lead them through these darkest hours. Rally your armies, foster your industries, and inspire your citizens to rise against oppression. "
+		"startIntroPart2": "O' brave leader of China, will you guide your nation to reclaim its place among the great powers of the world? Will you unite your people and rebuild the republic into a bastion of strength and prosperity? Can you build a civilization that can stand the test of time?",
+		
+		"declaringWar": "China, not only fights for her own independence but also for the liberation of every oppressed nations!",
+		"attacked": "These ancient lands shall not be desecrated by the hands of greedy men like you, so long as I live!",
+		"defeated": "We write our own destiny... and so, this will shall be mine.",
+		"introduction": "I am Chiang Kai-shek, the steadfast guardian and leader of these ancient people. What brings you here, stranger?",
+		
+		"neutralHello": "Nin hao.",
+		"hateHello": "What is it?",
+		
+		"tradeRequest": "This will benefit, both your people and mine.",
+		"outerColor": [0,46,168],
+		"innerColor": [255,255,255],
+		
+		"uniqueName": "War of Resistance",
+		"uniques": ["[+20]% Strength <for [Land] units> <when fighting in [your] tiles> <when defending>", 
+					"[+10]% Production when constructing [Gunpowder] units [in all cities] <when at war>"],
+		"cities": ["Nanjing", "Shanghai", "Beijing", "Wuhan", "Chongqing", "Tianjin", "Guangzhou", "Chengdu", "Xi'an", "Hangzhou", "Shenyang", "Harbin", "Changsha", "Fuzhou", "Kunming", "Nanchang", "Taiyuan", "Jinan", "Shijiazhuang", "Dalian", "Qingdao", "Zhengzhou", "Changchun", "Lanzhou", "Ningbo", "Suzhou", "Xiamen", "Wuxi", "Hefei", "Guiyang", "Zhongshan", "Kaohsiung", "Taichung", "Zhuhai", "Luoyang", "Nanning", "Urumqi", "Hohhot", "Qiqihar", "Yantai", "Jilin", "Tangshan", "Xuzhou", "Lianyungang", "Baoding", "Anshan", "Weihai"],
+		"spyNames": ["Dai Li", "Li Kenong", "Zeng Zhongming", "Xu Enzeng", "Zhou Fohai", "Pan Hannian", "Tang Erho", "Chen Geng", "Zhang Lingfu", "Yang Kaisen"]
+	}
+	
+	{
+		"name": "Spanish State",
+		"leaderName": "Francisco Franco",
+		"adjective": ["Nationalist"],
+		"startBias": ["Hill"],
+		"preferredVictoryType": "Diplomatic",
+		"favoredReligion": "Christianity", //Catholicism in BNW
+		"personality": "Francisco Franco",
+
+		"startIntroPart1": "May God bless you Francisco Franco leader of our divine nation, and Caudillo of the Spanish people. Spain once had a great dream of Spanish hegemony all over the world. In the past, we once discovered and ruled the Americas, subjugating and humbling the savage Aztecs hidden in the jungles of Mexico to the determined Incas of the Andes. In the present however, Spain has been reduced to a struggling nation who can barely keep up with its rivals, a terrible fate for an Empire where the Sun never had set. And from time to time, Spain had been humbled and humiliated by its enemies. From the British, the Americans, the French and the Dutch leading to its decline and its loss of its colonies from the lands of Mexico to the Plateaus of Argentina, making our proud nation and people irrelevant to the stage of the world.",
+		"startIntroPart2": "Although, despite our losses, all hope is not yet lost. Spain still has hopes to regain its great glory and have our revenge to our enemies who had made our nation suffer greatly, as the storms of war once more shall test the perseverance and resilience of the Spanish people. El Caudillo, your guidance is needed once more on such times where the world is shifting to a great period of conflict. Can you guide our men to victory? Can you lead Spain to its next golden age? Can you build a civilization that can stand the test of time?",
+		
+		"declaringWar": "I am responsible only to God and history. And today, I shall be responsible for your demise!",
+		"attacked": "Spain shall not cower under your threats to us. Let it be your folly doom you.",
+		"defeated": "I have done what I can. But it seems fate and God himself have handed me over to you.",
+		"introduction": "Buenos días, I am Francisco Franco, servant of God and Caudillo of Spain. And who might you be, stranger?",
+		
+		"neutralHello": "What can I do for you?",
+		"hateHello": "What!?",
+		
+		"tradeRequest": "What can you say about this offer?",
+		"outerColor": [241, 191, 0],
+		"innerColor": [170, 21, 27],	
+		
+		"uniqueName": "Autarky and Authority",
+		"uniques": ["[+20]% Production when constructing [All] buildings [in all cities]",
+		"[+1 Happiness] from every [Courthouse]",
+		"[+1 Happiness] from every [Police Station]",
+		"[-25]% enemy spy effectiveness [in all cities]",
+		"[-10]% [Science] [in all cities]"],
+		"cities": ["Madrid", "Barcelona", "Valencia", "Seville", "Bilbao", "Zaragoza", "Malaga", "Granada", "Valladolid", "Cordoba", "Santander", "La Coruña", "San Sebastián", "Oviedo", "Pamplona", "Toledo", "Burgos", "Gijón", "Vigo", "Salamanca", "Almería", "Alicante", "Huelva", "León", "Cádiz", "Murcia", "Logroño", "Lugo", "Orense", "Badajoz", "Cáceres", "Tarragona", "Palma de Mallorca", "Albacete", "Segovia", "Soria", "Cuenca", "Guadalajara", "Huesca", "Zamora", "Teruel", "Jaén", "Ceuta", "Melilla"],
+		"spyNames": ["Hilario López Cerrud", "Guillermo Candini", "Andrés Avelino Artal", "Pedro Urraca Rendueles", "José Finat y Escrivá de Romaní", "Santiago Montero Díaz", "Antonio Vallejo-Nájera", "Rafael Sánchez Mazas", "José Ungría Jiménez", "Álvaro Leret Ruiz"]
+	},	
+	
+	{
+		"name": "Spanish Republic",
+		"leaderName": "Manuel Azaña",
+		"adjective": ["Republican"],
+		"startBias": ["Hill"],
+		"preferredVictoryType": "Cultural",
+		"favoredReligion": "Christianity", //Catholicism in BNW
+		"personality": "Manuel Azaña",
+
+		"startIntroPart1": "May God guide both you and Republic, Señor Manuel Azaña, Prime Minister of Spain and the leader of our glorious Spanish Republic. For many years, Spain had been a proud nation that once was the greatest civilization within our planet. However, many things have set us back, from costly wars, economic mismanagement and corruption had led our people reduced from one of the greatest that stood within history to a hollow husk of a once proud Empire whose riches is measured by gold. Spain has been so irrelevant that we have done nothing but to sit idly and spectate as great conflicts such as the Great War was fought and nations such as Germany and Britain fought for supremacy as they carve their own spheres of influence.",
+		"startIntroPart2": "However, as time marches forward, so too are the balance of power. Spain had been sitting idly and it is up to you to change the fate of our once glorious nation. Prime Minister, can you lead Spain to relevance once more? Can you secure a bright and free for the Spanish people? Can you build a civilization that can stand the test of time.",
+		
+		"declaringWar": "I have sought all peaceful resolution to end our animosities, but it seems war shall be the only way to settle our differences!",
+		"attacked": "You may attack us, but the Republic will not fall! We will fight to the end for the freedom of Spain!",
+		"defeated": "¡Adiós, España! I do not want to see you again.",
+		"introduction": "Bienvenido, I am Manuel Azaña, leader of the Republic of Spain. What brought you here to our lands?",
+		
+		"neutralHello": "Hola.",
+		"hateHello": "Why are you here?",
+		
+		"tradeRequest": "Surely, this offer would convince you, yes?",
+		"outerColor": [219, 174, 0],
+		"innerColor": [75, 0, 130],	
+		
+		"uniqueName": "La Segunda República",
+		"uniques": ["[+2 Culture] [in all cities] <with a garrison>"
+		"[+15]% [Culture] [in your cities] <in cities with at least [10] [Population]>",
+		"[+15]% [Science] [in your cities] <in cities with at least [3] [Specialists]>"],
+		"cities": ["Madrid", "Barcelona", "Valencia", "Seville", "Bilbao", "Zaragoza", "Malaga", "Granada", "Valladolid", "Cordoba", "Santander", "La Coruña", "San Sebastián", "Oviedo", "Pamplona", "Toledo", "Burgos", "Gijón", "Vigo", "Salamanca", "Almería", "Alicante", "Huelva", "León", "Cádiz", "Murcia", "Logroño", "Lugo", "Orense", "Badajoz", "Cáceres", "Tarragona", "Palma de Mallorca", "Albacete", "Segovia", "Soria", "Cuenca", "Guadalajara", "Huesca", "Zamora", "Teruel", "Jaén", "Ceuta", "Melilla"],
+		"spyNames": ["Juan Negrín López", "Arturo Barea", "Vittorio Vidali", "Ernest Hemingway", "María Teresa León", "León Narvitch", "Dolores Ibárruri", "Margarita Nelken", "Luis Buñuel", "Pablo de Azcárate"]
+	},	
+
+	{
+		"name": "Czechoslovakia",
+		"leaderName": "Edvard Beneš",
+		"adjective": ["Czechoslovakian"],
+		"preferredVictoryType": "Diplomatic",
+		"favoredReligion": "Christianity", //Catholicism in BNW
+		"personality": "Edvard Beneš",
+
+		"startIntroPart1": "Good day, Mr. Edvard Beneš, President of the Czechoslovak People and its free and independent Republic. Czechoslovakia is a nation that was born within an era of uncertainty, teetering as a young republic from the ashes of the Great War. Once we were but a subject from Austro-Hungarian rule, an autocratic nation under the reins of the old rulers of the Habsburgs. But now, we are free from the yoke of the old Empire and both Bohemians and Slovakians have fought for independence and now coexisted under the flag of Czechoslovakia.",
+		"startIntroPart2": "However, despite our struggle to free ourselves from oppression, we, as a young republic still have a lot more challenges to face. Mr. President, the people would need a bright leader to continue the survival of our republic and bring us to greatness. Are you up to the task? Can you protect our freedom and democracy? Can you build a civilization that can stand the test of time?",
+		
+		"declaringWar": "We have gave you a chance to change your tyrannical way of life, but refused. Now, you've forced us to lift our hands against you!",
+		"attacked": "Of one thing I am profoundly convinced. My people will never abandon their democratic way of life. And so, we shall never submit to you as well!",
+		"defeated": "I have so many regrets in these life. May my next one be not as tragic as this.",
+		"introduction": "I am Dr. Edvard Beneš, president of the proud nation of Czechoslovakia. It is a pleasure to be your acquiantance and potential friend.",
+		
+		"neutralHello": "Dobrý den, friend.",
+		"hateHello": "What do you want from me?",
+		
+		"tradeRequest": "Do you think this agreement is suffice?",
+		"outerColor": [2, 232, 182],
+		"innerColor": [206, 17, 38],	
+		
+		"uniqueName": "Industrial Pioneers",
+		"uniques": ["[+1 Production] from each Trade Route",
+		"[10]% [Science] [in all cities] <if [Workshop] is constructed>"
+		"[10]% [Science] [in all cities] <if [Škoda Works] is constructed>"],
+		"cities": ["Prague", "Brno", "Ostrava", "Plzeň", "Liberec", "Olomouc", "České Budějovice", "Hradec Králové", "Ústí nad Labem", "Pardubice", "Zlín", "Kladno", "Havířov", "Most", "Opava", "Frýdek-Místek", "Teplice", "Karviná", "Jihlava", "Děčín", "Trenčín", "Prešov", "Nitra", "Košice", "Žilina", "Banská Bystrica", "Martin", "Trnava", "Přerov", "Chomutov", "Prostějov", "Tábor", "Znojmo", "Mladá Boleslav", "Písek", "Karlovy Vary", "Šumperk", "Uherské Hradiště", "Cheb", "Vsetín", "Kutná Hora", "Jablonec nad Nisou", "Hodonín", "Kroměříž"],
+		"spyNames": ["Jan Kubiš", "Jozef Gabčík", "František Moravec", "Hana Krupková", "Václav Morávek", "Josef Mašín", "Josef Balabán", "Alois Eliáš", "Marie Kovárníková", "Jaroslav Hájíček"]
+	},	
+	
+	{
+		"name": "Switzerland",
+		"leaderName": "Henri Guisan",
+		"adjective": ["Swiss"],
+		"startBias": ["Hill"],
+		"preferredVictoryType": "Scientific",
+		"favoredReligion": "Christianity", //Catholicism in BNW
+		"personality": "Henri Guisan",
+
+		"startIntroPart1": "Good day to you, General Henri Guisan. The steadfast leader and sentinel of our peaceful confederacy. For many years, Switzerland have long stopped participating in conflicts started by our neighbors and have took the stance of permanent neutrality since the end of the reign of Napoleon from the 19th Century. This was done to prevent anymore suffering of our people and our confederation from conflicts and war. Even so, many wars erupted within the borders of our nation, and many times that it dared to spill over the borders of our peaceful nation. However, time and time again we have proved that we shall remain steadfast on our belief that our nation shall never take arms again, unless of course invaded and forced our hands to take arms to defend itself.",
+		"startIntroPart2": "However, times are changing, General. Many great civilizations are rising up, and among them are warmongering nations who shall not hesitate to invade and attack us to prove that their nation are stronger are shall go at great lengths to assimilate our people. General, can you ensure that our nation remains protected from outside threats? Can you continue to uphold our stance for neutrality? Can you build a civilization that can stand the test of time?",
+		
+		"declaringWar": "Your despicable acts have forced me to break our long neutrality and declare war upon your evil nation!",
+		"attacked": "Switzerland shall not capitulate to your demands and will stand triumphant in the end!",
+		"defeated": "I did everything to preserve our nation. But alas, what I did is not enough.",
+		"introduction": "I am Henri Guisan, General of the army of Switzerland. I hope we can agree to mind each other's affairs.",
+		
+		"neutralHello": "Good day to you.",
+		"hateHello": "What?",
+		
+		"tradeRequest": "Are you interested to trade with us?",
+		"outerColor": [237, 28, 36],
+		"innerColor": [255, 255, 255],	
+		
+		"uniqueName": "Swiss Neutrality",
+		"uniques": [ "[+10]% growth [in all cities] <when not at war>",
+		"[+2 Gold, +2 Science] [in all cities] <when not at war>",
+		"[-2 Happiness] [in all cities] <when at war>"],
+		"cities": ["Bern", "Zurich", "Geneva", "Basel", "Lausanne", "Lucerne", "St. Gallen", "Winterthur", "Lugano", "Biel/Bienne", "Thun", "Fribourg", "Schaffhausen", "Chur", "Neuchâtel", "Sion", "Aarau", "Solothurn", "Bellinzona", "Kreuzlingen", "Martigny", "Yverdon-les-Bains", "Zug", "Locarno", "Baden", "Wil", "Uster", "Rapperswil-Jona", "Vevey", "Montreux", "Glarus", "Olten", "Delémont", "Pully", "Liestal"],
+		"spyNames": ["Hans Hausamann", "Max Waibel", "Roger Masson", "Paul Grüninger", "Carl Lutz", "Édouard de Haller", "Walter Mittelholzer", "Friedrich Traugott Wahlen", "Elisabeth Eidenbenz", "Georges Brunschvig"]
+	},	
+	
+	{
+		"name": "Turkey",
+		"leaderName": "İsmet İnönü",
+		"adjective": ["Turkish"],
+		"startBias": ["Avoid [Tundra]", "Avoid [Jungle]"],
+		"preferredVictoryType": "Diplomatic",
+		"favoredReligion": "Islam", 
+		"personality": "İsmet İnönü",
+
+		"startIntroPart1": "May Allah bless you and our republic, President İsmet İnönü. Officer, statesman and the right hand man of the father of our republic, Atatürk. Our nation was born from the ashes of the Great War and the dying breath of our Ottoman predecessors. As we lost our empire, the foreign powers of Great Britain, France and Greece sought to further destroy our nation by partitioning it through the treaty of Sèvres. However, you and Mustafa Kemal Atatürk have raised arms to resist such unjust treaty and had won our war for independence. Positioning ourselves as a free and independent nation ruled by no one but ourselves. Cementing our position as a nation for many more years to come.",
+		"startIntroPart2": "Mr. President, will you rise to the challenge once more and bring more prestige and greatness to our nation? Can you defend our nations from our jealous rivals? Can you build a civilization that can stand the test of time?",
+		
+		"declaringWar": "We had enough of other nations humilating ours! Now it is your turn to be humbled.",
+		"attacked": "The spirit of Atatürk shall be with us. For we will either die or be free!",
+		"defeated": "Sevgili dostum, I have failed you. I have failed our people...",
+		"introduction": "I am İsmet İnönü, President of our Republic and the Turkish people. I welcome you within our nation.",
+		
+		"neutralHello": "Hello.",
+		"hateHello": "What is it!?",
+		
+		"tradeRequest": "I say this agreement is fair. Yes?",
+		"outerColor": [227, 10, 23],
+		"innerColor": [255, 255, 255],	
+		
+		"uniqueName": "Bridge Between Continents",
+		"uniques": ["[+1 Gold, +1 Culture] from each Trade Route <on foreign continents>", //maybe external trade related unique on BNW?
+		"[+2 Gold] from every [Iron] <after discovering [Industrialization]>",
+		"[+2 Gold] from every [Aluminum]",],
+		"cities": ["Ankara", "Istanbul", "Izmir", "Bursa", "Adana", "Gaziantep", "Konya", "Kayseri", "Eskisehir", "Diyarbakir", "Antalya", "Samsun", "Mersin", "Trabzon", "Erzurum", "Malatya", "Kocaeli", "Hatay", "Manisa", "Sivas", "Elazig", "Balikesir", "Denizli", "Van", "Aydin", "Afyonkarahisar", "Kastamonu", "Kahramanmaras", "Batman", "Ordu", "Tokat", "Amasya", "Sinop", "Yozgat", "Zonguldak", "Usak", "Bolu", "Canakkale", "Corum", "Isparta", "Kirsehir", "Mugla", "Nevsehir", "Rize", "Siirt"],
+		"spyNames": ["Hüseyin Hüsnü Emir Erkilet", "Nuri Killigil", "Selahattin Ülkümen", "Necdet Ken", "Fahrettin Altay", "Zeki Kuneralp", "Sabri Berkel", "Ahmet Hulki Saral", "Ali Fuat Cebesoy", "Burhan Belge"]
+	},	
+
+]
